@@ -16,4 +16,4 @@ def function2(list):
     a = list[0]
     b = list[len(list) - 1]
 
-    return a,b
+    return a, b
