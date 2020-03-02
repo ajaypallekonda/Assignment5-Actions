@@ -21,6 +21,12 @@ class TestCase(unittest.TestCase):
         lists = [1, 2, 3, 4, 5, 6, 7, 8]
         self.assertEqual((1, 8), task.function2(lists))
 
+    def test_function3(self):
+        date1 = [2020, 2, 1]
+        date2 = [2020, 3, 15]
+
+        self.assertEqual(task.function3(date1, date2), 43)
+
 
 if __name__ == "__main__":
     unittest.main()
