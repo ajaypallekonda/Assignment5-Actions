@@ -19,7 +19,7 @@ class TestCase(unittest.TestCase):
 
     def test_function2(self):
         list = [1, 2, 3, 4, 5, 6, 7, 8]
-        self.assertEqual((1,8), task.function2(list))
+        self.assertEqual((1, 8), task.function2(list))
 
 
 if __name__ == "__main__":
