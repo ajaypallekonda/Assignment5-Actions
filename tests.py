@@ -17,6 +17,10 @@ class TestCase(unittest.TestCase):
         area = task.function1(3)
         self.assertEqual(area, (9 * math.pi))
 
+    def test_function2(self):
+        list = [1,2,3,4,5,6,7,8]
+        self.assertEqual((1,8), task.function2(list))
+
 
 if __name__ == "__main__":
     unittest.main()
